@@ -1,4 +1,4 @@
-# Advanced Unity MCP
+# Advanced Unity MCP from Code Maestro
 
 **Control Unity with AI through natural language commands.**
 
