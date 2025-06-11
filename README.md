@@ -1,4 +1,4 @@
-# Unity MCP
+# Advanced Unity MCP from Code Maestro
 
 **Control Unity with AI through natural language commands.**
 
@@ -21,10 +21,10 @@ https://github.com/codemaestroai/advanced-unity-mcp.git
 
 **2. Connect Your AI**
 - Go to `Code Maestro > MCP Dashboard` in Unity
-- Click **Configure** next to your preferred AI client
+- Click **Configure** next to your preferred MCP client
 - Start giving commands!
 
-**Supported AI Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code
+**Supported MCP Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code
 
 ## What Unity MCP Can Do
 
@@ -48,15 +48,15 @@ https://github.com/codemaestroai/advanced-unity-mcp.git
 
 Unity MCP bridges your Unity Editor with AI assistants using the Model Context Protocol. Two components work together:
 
-- **Bridge Server** - Runs in Unity, provides API access
-- **Relay Server** - Handles communication with AI clients
+- **Bridge Server** - Runs in Unity Editor, provides API access
+- **Relay Server** - Handles communication with MCP clients
 
-The setup is automatic once you install the package and configure your AI client.
+The setup is automatic once you install the package and configure your MCP client.
 
 ## Requirements
 
 - Unity 2022+
-- MCP-compatible AI client
+- MCP-compatible AI client (Such as GitHub Copilot or Cursor)
 
 ---
 
