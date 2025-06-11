@@ -1,4 +1,4 @@
-# Unity MCP
+# Advanced Unity MCP
 
 **Control Unity with AI through natural language commands.**
 
