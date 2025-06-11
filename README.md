@@ -1,4 +1,4 @@
-# Advanced Unity MCP from Code Maestro
+# Unity MCP
 
 **Control Unity with AI through natural language commands.**
 
@@ -21,10 +21,10 @@ https://github.com/codemaestroai/advanced-unity-mcp.git
 
 **2. Connect Your AI**
 - Go to `Code Maestro > MCP Dashboard` in Unity
-- Click **Configure** next to your preferred MCP client
+- Click **Configure** next to your preferred AI client
 - Start giving commands!
 
-**Supported MCP Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code
+**Supported AI Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code
 
 ## What Unity MCP Can Do
 
@@ -48,15 +48,77 @@ https://github.com/codemaestroai/advanced-unity-mcp.git
 
 Unity MCP bridges your Unity Editor with AI assistants using the Model Context Protocol. Two components work together:
 
-- **Bridge Server** - Runs in Unity Editor, provides API access
-- **Relay Server** - Handles communication with MCP clients
+- **Bridge Server** - Runs in Unity, provides API access
+- **Relay Server** - Handles communication with AI clients
 
-The setup is automatic once you install the package and configure your MCP client.
+The setup is automatic once you install the package and configure your AI client.
 
 ## Requirements
 
 - Unity 2022+
 - MCP-compatible AI client (Such as GitHub Copilot or Cursor)
+- Python 3.12+ and UV package manager installed and configured in the environment path
+
+## Troubleshooting
+
+### Installing Python and UV
+
+**Windows:**
+1. Download Python from [python.org](https://www.python.org/downloads/)
+2. During installation, **check "Add Python to PATH"**
+3. Open Command Prompt and run:
+   ```cmd
+   # Verify Python is installed
+   python --version
+   
+   # Install UV
+   pip install uv
+   ```
+
+**macOS:**
+1. Install Python using Homebrew:
+   ```bash
+   # Install Homebrew if not already installed
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   
+   # Install Python
+   brew install python@3.12
+   
+   # Install UV
+   pip3 install uv
+   ```
+
+**Linux:**
+```bash
+# Ubuntu/Debian
+sudo apt update
+sudo apt install python3.12 python3-pip
+
+# Install UV
+pip3 install uv
+```
+
+### Verify Installation
+Open a terminal and run:
+```bash
+python --version  # Should show Python 3.12+
+uv --version     # Should show UV version
+```
+
+### Common Issues
+
+**"python is not recognized" error:**
+- Make sure Python is added to your system PATH
+- On Windows, restart your computer after installation
+- On macOS/Linux, restart your terminal
+
+**"uv is not recognized" error:**
+- Install UV with: `pip install uv` or `pip3 install uv`
+- On Windows, you may need to add Python Scripts folder to PATH:
+  `C:\Users\[YourUsername]\AppData\Local\Programs\Python\Python312\Scripts`
+
+**Permission errors on macOS/Linux:**
+- Use `pip3 install --user uv` to install for current user only
 
 ---
 
