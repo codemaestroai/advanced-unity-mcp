@@ -76,7 +76,7 @@ The setup is automatic once you install the package and configure your AI client
    ```
 
 **macOS:**
-1. Install Python using Homebrew:
+Install Python using Homebrew:
    ```bash
    # Install Homebrew if not already installed
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
