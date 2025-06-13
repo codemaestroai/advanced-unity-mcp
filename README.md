@@ -28,7 +28,7 @@ https://github.com/codemaestroai/advanced-unity-mcp.git
 - Click **Configure** next to your preferred MCP client
 - Start giving commands!
 
-**Supported MCP Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code
+**Supported MCP Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code and any other MCP-capable copilot.
 
 ## What Unity MCP Can Do
 
