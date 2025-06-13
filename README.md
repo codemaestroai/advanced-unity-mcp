@@ -10,6 +10,9 @@ Instead of clicking through menus and manually setting up GameObjects, just tell
 "Make a new scene with a camera and directional light"
 ```
 
+Watch the video:
+[![Watch the video](http://img.youtube.com/vi/EwBuDHmiHMA/0.jpg)](http://www.youtube.com/watch?v=EwBuDHmiHMA "Advanced MCP Integration for Unity - Powered by Code Maestro (Coming Soon)")
+
 ## Quick Start
 
 **1. Install the Package**
