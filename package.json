@@ -1,6 +1,6 @@
 {
   "name": "com.codemaestroai.advancedunitymcp",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "displayName": "Code Maestro - Advanced Unity MCP",
   "description": "Advanced integration bridge for Unity that allows MCP clients to connect and interact with Unity Editor.",
   "unity": "2020.3",
