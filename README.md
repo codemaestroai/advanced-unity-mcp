@@ -59,7 +59,7 @@ The setup is automatic once you install the package and configure your MCP clien
 
 ## Requirements
 
-- Unity 2022+
+- Unity 2021 and newer
 - MCP Client (Such as GitHub Copilot or Cursor)
 
 ---
