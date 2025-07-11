@@ -57,6 +57,8 @@ Unity MCP bridges your Unity Editor with AI assistants using the Model Context P
 
 The setup is automatic once you install the package and configure your MCP client.
 
+**💡 Tip:** When multiple Unity projects are open, your AI assistant will automatically connect to the most recently opened Unity Editor instance.
+
 ## Requirements
 
 - Unity 2022+
