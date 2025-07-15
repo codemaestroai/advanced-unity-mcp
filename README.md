@@ -25,7 +25,7 @@ For **Unity 2020-2022**
 https://github.com/codemaestroai/advanced-unity-mcp.git?path=Unity2020_2022
 ```
 
-For **Unity 2020-2022**
+For **Unity 6+**
 ```
 https://github.com/codemaestroai/advanced-unity-mcp.git?path=Unity6
 ```
