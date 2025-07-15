@@ -1,0 +1,10 @@
+{
+  "name": "com.codemaestroai.advancedunitymcp",
+  "version": "1.2.4",
+  "displayName": "Code Maestro - Advanced Unity MCP",
+  "description": "Advanced integration bridge for Unity that allows MCP clients to connect and interact with Unity Editor.",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}
