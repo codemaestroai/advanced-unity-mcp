@@ -73,4 +73,4 @@ The setup is automatic once you install the package and configure your MCP clien
 
 ---
 
-**Made by [Code Maestro](https://www.code-maestro.com) • [Join our Discord](https://discord.gg/bsFRAqATXz) • [Report Issues](https://github.com/codemaestroai/advanced-unity-mcp/issues)**
+**Made by [Code Maestro](https://www.code-maestro.com) • [Join our Discord](https://discord.gg/bsFRAqATXz) • [Report Issues](https://github.com/codemaestroai/advanced-unity-mcp/issues) • [License](./LICENSE)**
