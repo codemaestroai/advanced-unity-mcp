@@ -31,11 +31,20 @@ https://github.com/codemaestroai/advanced-unity-mcp.git?path=Unity6
 ```
 
 **2. Connect Your AI**
-- Go to `Code Maestro > MCP Dashboard` in Unity
-- Click **Configure** next to your preferred MCP client
+- Go to `Code Maestro > MCP Dashboard` in Unity.
+- **For Code Maestro Desktop App:** Select the "Code Maestro Desktop App" connection mode. The connection is automatic, and the dashboard will show the connection status.
+- **For other clients (VS Code, Cursor, etc.):** Select the "Other Clients" connection mode, then click **Configure** next to your preferred client.
 - Start giving commands!
 
-**Supported MCP Clients:** Code Maestro, GitHub Copilot, Cursor, Windsurf, Claude Code and any other MCP-capable copilot.
+**Supported MCP Clients:**
+- **Code Maestro Desktop App** (uses Direct Connection)
+- **GitHub Copilot (VS Code)**
+- **Cursor**
+- **Windsurf**
+- **Claude Desktop**
+- ...and any other MCP-capable copilot.
+
+*Clients other than the Code Maestro Desktop App use the Relay Server connection, which is installed automatically.*
 
 ## What Unity MCP Can Do
 
@@ -57,12 +66,16 @@ https://github.com/codemaestroai/advanced-unity-mcp.git?path=Unity6
 
 ## How It Works
 
-Unity MCP bridges your Unity Editor with AI assistants using the Model Context Protocol. Two components work together:
+Unity MCP bridges your Unity Editor with AI assistants using the Model Context Protocol. It supports two connection modes, which can be selected in the MCP Dashboard:
 
-- **Bridge Server** - Runs in Unity Editor, provides API access
-- **Relay Server** - Handles communication with MCP clients
+- **Direct Connection (for Code Maestro Desktop App):** This is the recommended mode for Code Maestro users. The Unity Editor connects directly to the Code Maestro Desktop App's central hub. This method is faster and doesn't require a separate relay server.
+  - **Unity MCP Connector:** Runs inside the Unity Editor to manage the connection.
 
-The setup is automatic once you install the package and configure your MCP client.
+- **Relay Server Connection (for other clients):** For clients like VS Code or Cursor, the bridge uses a local TCP server and a relay server.
+  - **Bridge Server:** Runs in the Unity Editor and provides API access over a local TCP port.
+  - **Relay Server:** A small background process that handles communication between the AI client and the Unity Bridge Server. It is installed automatically.
+
+The setup is automatic. Simply choose your connection mode in the dashboard.
 
 **💡 Tip:** When multiple Unity projects are open, your AI assistant will automatically connect to the most recently opened Unity Editor instance.
 
