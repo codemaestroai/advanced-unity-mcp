@@ -1,5 +1,7 @@
 # Advanced Unity MCP from Code Maestro
 
+[![MCPAmpel](https://img.shields.io/endpoint?url=https://mcpampel.com/badge/codemaestroai/advanced-unity-mcp.json)](https://mcpampel.com/repo/codemaestroai/advanced-unity-mcp)
+
 **Control Unity with AI through natural language commands.**
 
 Instead of clicking through menus and manually setting up GameObjects, just tell your AI assistant what you want and watch it happen automatically.
